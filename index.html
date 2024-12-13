@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richmond Afrifa - Software Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .slide-up {
+            animation: slideUp 1.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .hover-grow {
+            transition: transform 0.3s ease;
+        }
+
+        .hover-grow:hover {
+            transform: scale(1.05);
+        }
+
+        .hover-underline:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-6 fade-in hover-grow">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Richmond Afrifa</h1>
+            <p class="text-lg">Software Engineer</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8 px-4">
+        <section class="mb-8 slide-up">
+            <h2 class="text-2xl font-semibold mb-4 hover-underline">About Me</h2>
+            <p class="text-gray-700">I am a methodicL Software Engineer with expertise in modern web development technologies. I enjoy building responsive and efficient web applications, solving complex problems, and learning new technologies.</p>
+        </section>
+
+        <section class="mb-8 slide-up">
+            <h2 class="text-2xl font-semibold mb-4 hover-underline">Skills</h2>
+            <ul class="grid grid-cols-2 gap-4 text-gray-700">
+                <li class="hover-grow">HTML5</li>
+                <li class="hover-grow">Bootstrap</li>
+                <li class="hover-grow">Tailwind CSS</li>
+                <li class="hover-grow">JavaScript</li>
+                <li class="hover-grow">React</li>
+                <li class="hover-grow">SASS</li>
+                <li class="hover-grow">TypeScript</li>
+                <li class="hover-grow">Node.js</li>
+                <li class="hover-grow">MongoDB</li>
+                <li class="hover-grow">Git</li>
+                <li class="hover-grow">GitHub</li>
+                <li class="hover-grow">VS Code</li>
+                <li class="hover-grow">Sublime Text</li>
+            </ul>
+        </section>
+
+        <section class="mb-8 slide-up">
+            <h2 class="text-2xl font-semibold mb-4 hover-underline">Projects</h2>
+            <p class="text-gray-700">Coming soon...</p>
+        </section>
+
+        <section class="mb-8 slide-up">
+            <h2 class="text-2xl font-semibold mb-4 hover-underline">Contact</h2>
+            <p class="text-gray-700">Feel free to reach out to me on my social platforms or email me directly.</p>
+            <div class="mt-4">
+                <a href="https://wa.me/233509004658" target="_blank" rel="noopener noreferrer" class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-400 transition hover-grow fade-in">WhatsApp</a>
+                <a href="https://github.com/richiekay10" target="_blank" rel="noopener noreferrer" class="bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700 transition ml-4 hover-grow fade-in">GitHub</a>
+                <a href="https://www.instagram.com/kay_gratitude/profilecard/?igsh=bGFrcGRzOHpwdnJk" target="_blank" rel="noopener noreferrer" class="bg-pink-500 text-white py-2 px-4 rounded hover:bg-pink-400 transition ml-4 hover-grow fade-in">Instagram</a>
+                <a href="mailto:richmondkafrifa13@gmail.com" target="_blank" rel="noopener noreferrer" class="bg-red-600 text-white py-2 px-4 rounded hover:bg-red-500 transition ml-4 hover-grow fade-in">Gmail</a>
